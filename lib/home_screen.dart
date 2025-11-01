@@ -44,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
             const Icon(Icons.medication_liquid, size: 100, color: Colors.blue),
             const SizedBox(height: 20),
             const Text(
-              'Selamat Datang di Aplikasi Kesehatan Pribadi',
+              'Selamat Datang di Aplikasi Reminder Obat',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
             ),

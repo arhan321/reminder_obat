@@ -10,10 +10,10 @@ class ProfileScreen extends StatefulWidget {
 class _ProfileScreenState extends State<ProfileScreen> {
   final _formKey = GlobalKey<FormState>();
   final TextEditingController _nameController =
-      TextEditingController(text: 'Arhan Malik');
+      TextEditingController(text: 'Tiara Zahira');
   final TextEditingController _ageController =
-      TextEditingController(text: '23');
-  String _gender = 'Laki-laki';
+      TextEditingController(text: '22');
+  String _gender = 'Perempuan';
 
   void _saveProfile() {
     if (_formKey.currentState!.validate()) {
